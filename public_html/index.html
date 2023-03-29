@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>HTML Bv4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Aleksandar Dukovic">
+        <meta name="description" content="Bv4 - build responsive, mobile-first projects on the web with the world's popular front-end component library">
+        <meta name="key words" content="Bv4, front-end, component library, bootstrap, jQuery">
+
+        <link href="CSS/normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <main>
+
+            <!-- HEADER start -->
+            <header>
+                <div class="container">
+                    <a href="#" class="logo d-block">
+                        <img src="./images/logo.png" alt="logo bv4"/>
+                    </a>
+
+                    <nav class="header-nav">
+                        <ul class="header-menu">
+                            <li>
+                                <a href="#home" class="active d-block">home</a>
+
+                            </li>
+                            <li>
+                                <a href="#layout" class="d-block">layout</a>
+                            </li>
+                            <li>
+                                <a href="#grid" class="d-block">grid</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header><!-- HEADER end -->
+
+
+            <!-- Section HOME start -->
+            <section class="home" id="home">
+                <div class="container">
+
+                    <article class="home-item">
+                        <h2 class="section-title">What is Bv4?</h2>
+                        <p class="home-description-one">
+                            Build responsive, mobile-first projects on the
+                            web with the world’s most popular front-end component library.
+                        </p>
+                        <p class="home-description">
+                            Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+                        </p>
+                    </article>
+
+                    <figure class="home-image d-block">
+                        <a href="#" class="d-block">
+                            <img src="./images/img.png" alt="mobile phone"/>
+                        </a>
+                    </figure>
+                </div>
+            </section><!-- Section HOME end -->
+
+
+            <!-- Section LAYOUT start -->
+            <section class="layout " id="layout">
+                <h2 class="section-title">Layout</h2>
+                <div class="layout-wrapper">
+
+                    <!-- Article ONE -->  
+                    <article class="layout-item">
+                        <aside class="layout-item-aside">
+                            <i class="fa-solid fa-location-arrow"></i>  
+                        </aside>
+                        <div class="layout-content">
+                            <h3 class="layout-item-title">Easy to use</h3> 
+                            <p class="layout-item-description">Saves time and is easy to use. Using Bootstrap, you can save a lot of time.</p>
+                        </div>
+                    </article>
+
+                    <!-- Article TWO -->
+                    <article class="layout-item">
+                        <aside class="layout-item-aside">
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                        </aside>
+                        <div class="layout-content">
+                            <h3 class="layout-item-title">Mobile first</h3> 
+                            <p class="layout-item-description">Bootstrap is developed mobile first, a strategy
+                                in which we optimize code for mobile devices 
+                                first and then scale up components as
+                                necessary using CSS media queries.</p>
+                        </div>
+                    </article>
+
+                    <!-- Article THREE -->
+                    <article class="layout-item">
+                        <aside class="layout-item-aside">
+                            <i class="fa-solid fa-laptop-code"></i>   
+                        </aside>
+                        <div class="layout-content">
+                            <h3 class="layout-item-title">Responsive</h3> 
+                            <p class="layout-item-description">Bootstrap includes a responsive, mobile first
+                                fluid grid system that appropriately scales
+                                up to 12 columns as the device or viewport
+                                size increases.</p>
+                        </div>
+                    </article>
+
+                    <!-- Article FOUR -->
+                    <article class="layout-item">
+                        <aside class="layout-item-aside">
+                            <i class="fa-brands fa-edge-legacy"></i>
+                        </aside>
+                        <div class="layout-content">
+                            <h3 class="layout-item-title">Browser compatibility</h3> 
+                            <p class="layout-item-description">Bootstrap supports the latest, stable releases
+                                of all major browsers and platforms.</p>
+                        </div>
+                    </article>
+
+                    <!-- Article FIVE -->
+                    <article class="layout-item">
+                        <aside class="layout-item-aside">
+                            <i class="fa-brands fa-sass"></i>
+                        </aside>
+                        <div class="layout-content">
+                            <h3 class="layout-item-title">SASS & CSS</h3> 
+                            <p class="layout-item-description">Download Bootstrap to get the compiled CSS
+                                and JavaScript or SASS source code.</p>
+                        </div>
+                    </article>
+
+                    <!-- Article SIX -->
+                    <article class="layout-item">
+                        <aside class="layout-item-aside">
+                            <i class="fa-solid fa-gear"></i>     
+                        </aside>
+                        <div class="layout-content">
+                            <h3 class="layout-item-title">Easily customizable</h3> 
+                            <p class="layout-item-description">Bootstrap 4 has a huge number of
+                                customization options that control nearly
+                                every aspect the framework.</p>
+                        </div>
+                    </article>
+                </div>
+            </section><!-- Section LAYOUT end -->
+
+
+            <!-- Section GRID start -->
+            <section class="grid" id="grid">
+                <div class="container">
+                    <h2 class="section-title">Grid</h2>
+                    <div class="grid-wrapper d-flex text-center flex-wrap justify-around">
+
+                        <!-- Article ONE -->
+                        <article class="grid-item text-center">
+                            <span class="grid-number inline-block">1</span>
+                            <h3 class="grid-item-title">Container</h3>
+                            <p class="grid-item-description">Containers provide a means to center and
+                                horizontally pad your site’s contents. Use .container for a responsive 
+                                pixel width or .container-fluid for width: 100% across all viewport and 
+                                device sizes.</p>
+                        </article>
+
+                        <!-- Article TWO -->
+                        <article class="grid-item text-center">
+                            <span class="grid-number inline-block">2</span>
+                            <h3 class="grid-item-title">Row</h3>
+                            <p class="grid-item-description">Rows are wrappers for columns. Each column
+                                has horizontal padding (called a gutter) for controlling the space between
+                                them. This padding is then counteracted on the rows with negative margins.
+                            </p>
+                        </article>
+
+                        <!-- Article THREE -->
+                        <article class="grid-item text-center">
+                            <span class="grid-number inline-block">3</span>
+                            <h3 class="grid-item-title">Cols</h3>
+                            <p class="grid-item-description">Column classes indicate the number of columns
+                                you’d like to use out of the possible 12 per row. So, if you want three 
+                                equal-width columns across, you can use .col-4.</p>
+                        </article>
+
+                        <!-- Article FOUR -->
+                        <article class="grid-item">
+                            <span class="grid-number inline-block">4</span>
+                            <h3 class="grid-item-title">Content</h3>
+                            <p class="grid-item-description">In a grid layout, content must
+                                be placed within columns and only columns may be immediate
+                                children of rows.</p>
+                        </article>
+
+                    </div>
+                </div>
+            </section> <!-- Section GRID end -->  
+
+        </main>
+
+        <!-- FOOTER start -->
+        <footer>
+            <div class="container logo d-flex justify-between align-center">
+                <a href="#" class="footer-logo d-block">
+                    <img src="./images/footer logo.png" alt="logo bv4"/>
+                </a>
+                <p class="footer-copy">Bv4&copy;. All Rights Reserverd.</p>
+            </div>
+        </footer><!-- FOOTER end -->
+
+        <script src="https://kit.fontawesome.com/5acd504063.js" crossorigin="anonymous"></script>
+
+    </body>
+</html>
+
